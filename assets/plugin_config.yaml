@@ -1,0 +1,27 @@
+# This configuration file is necessary for constants used
+#  in the DynamicCraftPlugin
+
+urls:
+  test: true
+  uat: https://uat.craftsilicon.com
+  live: https://app.craftsilicon.com
+  tokenUrl:  /ElmaV4Auth/api/auth/app
+  #/ElmaV4Auth/api/auth/apps
+
+request:
+  trxSource: APP
+  versionNumber: 1
+  bankId: "32"
+  appName: UCHUMI
+  country: TANZANIATEST
+  countryCode: "255"
+
+crypt:
+  staticEncryptKey: csXDRzpcEPm_jMny
+  staticEncryptIv: 84jfkfndl3ybdfkf
+  staticLogKeyValue: KBSB&er3bflx9%
+
+appProperties:
+  appLabel: Uchumi
+  appPrimaryColor: 6B2600
+  appSecondaryColor: E89416
